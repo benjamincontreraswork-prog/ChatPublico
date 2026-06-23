@@ -1,4 +1,6 @@
-$Construir un servidor en C que:
+Objetivos sprint 1
+
+Construir un servidor en C que:
 
 localhost:8080 → "PublicChat OK"
 
