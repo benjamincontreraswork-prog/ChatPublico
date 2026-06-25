@@ -19,7 +19,7 @@ int main() {
     server_addr.sin_family = AF_INET;
     server_addr.sin_port = htons(8080);
     server_addr.sin_addr.s_addr = INADDR_ANY;
-C/C++: Select IntelliSense Configuratio
+
     // 3. Bind
     bind(server_fd, (struct sockaddr*)&server_addr, sizeof(server_addr));
 
